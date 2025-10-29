@@ -102,7 +102,7 @@
                 <!-- Main Title and Description -->
                 <div class="mb-12 transform translate-y-8 opacity-0 transition-all duration-1000 ease-out" id="about-content">
                     <h2 class="font-britney text-white text-3xl md:text-5xl font-bold tracking-wide mb-6">
-                        LIISU THE NIGGA
+                        LIISU EDWARDS
                     </h2>
                     <div class="max-w-lg mx-auto">
                         <p class="text-gray-300 text-base md:text-lg leading-relaxed">
@@ -112,76 +112,58 @@
                 </div>
             </div>
             
-            <!-- Portfolio Images - Scattered organically with some extending off-screen -->
+            <!-- Portfolio Images - Cleaner layout with fewer images -->
             
-            <!-- Image 1 - Very top, partially off-screen -->
-            <div class="absolute -top-8 left-20 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-1" style="transition-delay: 0.2s;">
-                <div class="w-36 h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
+            <!-- Image 1 - Large, top left -->
+            <div class="absolute top-16 left-16 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-1" style="transition-delay: 0.2s;">
+                <div class="w-44 h-56 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
                     <div class="w-full h-full bg-gradient-to-br from-red-900 to-gray-800 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Portfolio</span>
+                        <span class="text-white text-sm font-semibold">Portfolio</span>
                     </div>
                 </div>
             </div>
             
-            <!-- Image 2 - Top right, extending off-screen -->
-            <div class="absolute -top-12 -right-16 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-2" style="transition-delay: 0.5s;">
-                <div class="w-40 h-56 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl overflow-hidden">
+            <!-- Image 2 - Medium, top right, extending off-screen -->
+            <div class="absolute -top-8 -right-20 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-2" style="transition-delay: 0.5s;">
+                <div class="w-40 h-52 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl overflow-hidden">
                     <div class="w-full h-full bg-gradient-to-br from-red-900 to-gray-700 flex items-center justify-center">
                         <span class="text-white text-xs font-semibold">Featured</span>
                     </div>
                 </div>
             </div>
             
-            <!-- Image 3 - High up, center-left -->
-            <div class="absolute top-4 left-1/3 transform -translate-x-16 translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-3" style="transition-delay: 0.8s;">
-                <div class="w-28 h-40 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl overflow-hidden">
-                    <div class="w-full h-full bg-gradient-to-br from-gray-700 to-red-900 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Art</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Image 4 - Left side, halfway off-screen -->
-            <div class="absolute top-1/2 -left-20 transform -translate-y-8 translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-4" style="transition-delay: 1.1s;">
-                <div class="w-44 h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
+            <!-- Image 4 - Large, left side -->
+            <div class="absolute top-1/2 left-8 transform -translate-y-1/2 translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-4" style="transition-delay: 0.8s;">
+                <div class="w-48 h-60 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
                     <div class="w-full h-full bg-gradient-to-br from-gray-800 to-red-800 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Design</span>
+                        <span class="text-white text-sm font-semibold">Design</span>
                     </div>
                 </div>
             </div>
             
-            <!-- Image 5 - High up on right, mostly off-screen -->
-            <div class="absolute top-20 -right-24 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-5" style="transition-delay: 1.4s;">
-                <div class="w-38 h-60 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl overflow-hidden">
+            <!-- Image 5 - Medium, right side -->
+            <div class="absolute top-1/3 right-16 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-5" style="transition-delay: 1.1s;">
+                <div class="w-38 h-50 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl overflow-hidden">
                     <div class="w-full h-full bg-gradient-to-br from-red-800 to-gray-800 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Creative</span>
+                        <span class="text-white text-sm font-semibold">Creative</span>
                     </div>
                 </div>
             </div>
             
-            <!-- Image 6 - Bottom left, normal position -->
-            <div class="absolute bottom-20 left-16 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-6" style="transition-delay: 1.7s;">
-                <div class="w-38 h-42 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
-                    <div class="w-full h-full bg-gradient-to-br from-gray-900 to-red-900 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Gallery</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Image 7 - Bottom center, small -->
-            <div class="absolute bottom-16 left-1/2 transform -translate-x-1/2 translate-x-20 translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-7" style="transition-delay: 2.0s;">
-                <div class="w-30 h-46 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl overflow-hidden">
-                    <div class="w-full h-full bg-gradient-to-br from-red-700 to-gray-900 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Work</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Image 8 - Bottom, extending off-screen -->
-            <div class="absolute -bottom-8 right-12 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-8" style="transition-delay: 2.3s;">
+            <!-- Image 6 - Medium, bottom left -->
+            <div class="absolute bottom-20 left-20 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-6" style="transition-delay: 1.4s;">
                 <div class="w-42 h-54 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
+                    <div class="w-full h-full bg-gradient-to-br from-gray-900 to-red-900 flex items-center justify-center">
+                        <span class="text-white text-sm font-semibold">Gallery</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Image 8 - Large, bottom right -->
+            <div class="absolute bottom-12 right-12 transform translate-y-32 opacity-0 transition-all duration-1200 ease-out" id="image-8" style="transition-delay: 1.7s;">
+                <div class="w-50 h-64 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl overflow-hidden">
                     <div class="w-full h-full bg-gradient-to-br from-gray-800 to-red-800 flex items-center justify-center">
-                        <span class="text-white text-xs font-semibold">Projects</span>
+                        <span class="text-white text-sm font-semibold">Projects</span>
                     </div>
                 </div>
             </div>
@@ -315,7 +297,7 @@
                 });
             }, 300);
             
-            // Images appear with off-screen positioning
+            // Images appear with dynamic sizing and closer positioning
             setTimeout(() => {
                 const image1 = document.getElementById('image-1');
                 image1.style.opacity = '1';
@@ -326,43 +308,31 @@
                 const image2 = document.getElementById('image-2');
                 image2.style.opacity = '1';
                 image2.style.transform = 'translateY(0)';
-            }, 650);
-            
-            setTimeout(() => {
-                const image3 = document.getElementById('image-3');
-                image3.style.opacity = '1';
-                image3.style.transform = 'translateY(0) translateX(-16px)';
-            }, 800);
+            }, 600);
             
             setTimeout(() => {
                 const image4 = document.getElementById('image-4');
                 image4.style.opacity = '1';
-                image4.style.transform = 'translateY(0) translateY(-8px)';
-            }, 950);
+                image4.style.transform = 'translateY(0) translateY(-50%)';
+            }, 700);
             
             setTimeout(() => {
                 const image5 = document.getElementById('image-5');
                 image5.style.opacity = '1';
                 image5.style.transform = 'translateY(0)';
-            }, 1100);
+            }, 800);
             
             setTimeout(() => {
                 const image6 = document.getElementById('image-6');
                 image6.style.opacity = '1';
                 image6.style.transform = 'translateY(0)';
-            }, 1250);
-            
-            setTimeout(() => {
-                const image7 = document.getElementById('image-7');
-                image7.style.opacity = '1';
-                image7.style.transform = 'translateY(0) translateX(-50%) translateX(20px)';
-            }, 1400);
+            }, 900);
             
             setTimeout(() => {
                 const image8 = document.getElementById('image-8');
                 image8.style.opacity = '1';
                 image8.style.transform = 'translateY(0)';
-            }, 1550);
+            }, 1000);
         }
     </script>
 </body>
